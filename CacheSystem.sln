@@ -11,9 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		AboutRedis.txt = AboutRedis.txt
 		Redis.txt = Redis.txt
 		RedisJson.txt = RedisJson.txt
+		RedisMessageBroker.txt = RedisMessageBroker.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryRedis.API", "TryRedis.API\TryRedis.API.csproj", "{44A6E91D-3182-4C32-BC8D-0983D2F66156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{B0E0F445-C208-442C-91F0-60C0FB208637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber\Redis.Pub.Sub.Subscriber.Example.csproj", "{1A5E1893-A00C-4ACB-A4A8-770354EB2973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +34,14 @@ Global
 		{44A6E91D-3182-4C32-BC8D-0983D2F66156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A6E91D-3182-4C32-BC8D-0983D2F66156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A6E91D-3182-4C32-BC8D-0983D2F66156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E0F445-C208-442C-91F0-60C0FB208637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0F445-C208-442C-91F0-60C0FB208637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0F445-C208-442C-91F0-60C0FB208637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0F445-C208-442C-91F0-60C0FB208637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5E1893-A00C-4ACB-A4A8-770354EB2973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5E1893-A00C-4ACB-A4A8-770354EB2973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5E1893-A00C-4ACB-A4A8-770354EB2973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5E1893-A00C-4ACB-A4A8-770354EB2973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -69,7 +69,16 @@ NOT: Verilerin cachlenme süresi verinin yapýlarýna, deðiþim sürecine göre deðiþi
  
  +EHCACHE (java tabanlý)
 
+
+
+
+------------------------------------------------------------------------------------------------
+VERÝLERÝ NEDEN RAMDA TUTMAYA ÝHTÝYAÇ DUYARIZ?
+Sql yapýlarý cpu kullanarak iþlem yaptýðý için big datalarla çalýþtýðýmýzda cpu'ya yük bindiririz, redis gibi yapýlar da bu yükü azaltmaya yardýmcý olur ve hýz konusunda performans artýþý saðlar.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Docker image: çalýþacak uygulamanýn  paket haline gelmiþ þekli ve uygulama altyapýsýnda çalýþan gerekli iþletim sistemi kütüphanelerinin bulunduðu yapý.
        imajlarý, container yaratmak için gereken talimatlarýn bulunduðu þablon gibi düþün
        container: paket haline getirilen image’lerin çalýþtýrýlacaðý alandýr
